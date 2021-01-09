@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradientbg">
+
+    <ImageView
+        android:layout_gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="220dp"
+        android:src="@drawable/profil1"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp"/>
+
+    <pl.droidsonroids.gif.GifImageView
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_marginBottom="10dp"
+        android:src="@drawable/lol"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="NIM : 000000 22713\nNama : Richard Indra\nKelas : BL"
+        android:fontFamily="@font/jolly_lodger"
+        android:textSize="20sp"
+        android:textAlignment="center"
+        android:textColor="@color/colorFont"
+        android:layout_marginBottom="10dp"
+        tools:ignore="HardcodedText" />
+
+
+    <pl.droidsonroids.gif.GifImageView
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:src="@drawable/lol1"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="REFERENSI :\n1. Youtube.com\n2. stackoverflow.com"
+        android:fontFamily="@font/jolly_lodger"
+        android:textSize="15sp"
+        android:textAlignment="center"
+        android:textColor="@color/colorFont"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="30dp"
+        tools:ignore="HardcodedText" />
+</LinearLayout>
